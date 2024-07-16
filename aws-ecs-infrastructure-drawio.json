@@ -1,0 +1,119 @@
+{
+  "diagram": {
+    "name": "AWS ECS Infrastructure",
+    "nodes": [
+      {
+        "id": "1",
+        "name": "Route 53",
+        "type": "aws-route53",
+        "x": 100,
+        "y": 50
+      },
+      {
+        "id": "2",
+        "name": "VPC",
+        "type": "aws-vpc",
+        "x": 300,
+        "y": 200,
+        "width": 600,
+        "height": 400
+      },
+      {
+        "id": "3",
+        "name": "Application Load Balancer",
+        "type": "aws-application-load-balancer",
+        "x": 350,
+        "y": 100
+      },
+      {
+        "id": "4",
+        "name": "ECS Cluster",
+        "type": "aws-ecs",
+        "x": 500,
+        "y": 250
+      },
+      {
+        "id": "5",
+        "name": "API Service",
+        "type": "aws-ecs-service",
+        "x": 400,
+        "y": 350
+      },
+      {
+        "id": "6",
+        "name": "Redis Service",
+        "type": "aws-ecs-service",
+        "x": 600,
+        "y": 350
+      },
+      {
+        "id": "7",
+        "name": "API Task 1",
+        "type": "aws-ecs-task",
+        "x": 350,
+        "y": 450
+      },
+      {
+        "id": "8",
+        "name": "API Task 2",
+        "type": "aws-ecs-task",
+        "x": 400,
+        "y": 450
+      },
+      {
+        "id": "9",
+        "name": "API Task 3",
+        "type": "aws-ecs-task",
+        "x": 450,
+        "y": 450
+      },
+      {
+        "id": "10",
+        "name": "Redis Task",
+        "type": "aws-ecs-task",
+        "x": 600,
+        "y": 450
+      },
+      {
+        "id": "11",
+        "name": "Elastic File System",
+        "type": "aws-efs",
+        "x": 750,
+        "y": 350
+      },
+      {
+        "id": "12",
+        "name": "Elastic Container Registry",
+        "type": "aws-ecr",
+        "x": 750,
+        "y": 250
+      },
+      {
+        "id": "13",
+        "name": "Auto Scaling",
+        "type": "aws-auto-scaling",
+        "x": 250,
+        "y": 350
+      }
+    ],
+    "edges": [
+      {"from": "1", "to": "3", "label": "DNS Resolution"},
+      {"from": "3", "to": "4", "label": "Routes traffic"},
+      {"from": "2", "to": "4", "label": "Contains"},
+      {"from": "2", "to": "3", "label": "Contains"},
+      {"from": "2", "to": "11", "label": "Contains"},
+      {"from": "4", "to": "5", "label": ""},
+      {"from": "4", "to": "6", "label": ""},
+      {"from": "5", "to": "7", "label": ""},
+      {"from": "5", "to": "8", "label": ""},
+      {"from": "5", "to": "9", "label": ""},
+      {"from": "6", "to": "10", "label": ""},
+      {"from": "11", "to": "7", "label": "Shared storage"},
+      {"from": "11", "to": "8", "label": "Shared storage"},
+      {"from": "11", "to": "9", "label": "Shared storage"},
+      {"from": "12", "to": "5", "label": "Provides images"},
+      {"from": "12", "to": "6", "label": "Provides images"},
+      {"from": "13", "to": "5", "label": "Manages task count"}
+    ]
+  }
+}
