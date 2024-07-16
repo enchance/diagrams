@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T07:21:06.544Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="bhCfsjY6loJi6iuwEtlD" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-16T07:21:42.758Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="dNhWwjCH-2A2jTlZP94z" version="24.6.5" type="github">
   <diagram name="Page-1" id="ucFDTJxj1MuP0T__f6Ae">
     <mxGraphModel dx="1195" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -21,7 +21,7 @@
           <mxGeometry x="80" y="160" width="44.63" height="46.98" as="geometry" />
         </mxCell>
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-82" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.route_53;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="270.25" y="160" width="57.12" height="57.12" as="geometry" />
+          <mxGeometry x="276.44" y="160" width="57.12" height="57.12" as="geometry" />
         </mxCell>
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="72ZY0S5QGdh6Q3wZreM4-3" target="72ZY0S5QGdh6Q3wZreM4-10">
           <mxGeometry relative="1" as="geometry" />
@@ -32,7 +32,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-3" value="&lt;div&gt;ALB&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;fillColor=#F58534;gradientColor=none;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="270.25" y="269.90999999999997" width="59.5" height="62.09" as="geometry" />
+          <mxGeometry x="275.25" y="259.99999999999994" width="59.5" height="62.09" as="geometry" />
         </mxCell>
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFBE6;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="385" width="450" height="615" as="geometry" />
