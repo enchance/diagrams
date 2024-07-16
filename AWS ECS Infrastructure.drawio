@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T07:21:42.758Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="dNhWwjCH-2A2jTlZP94z" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-16T07:24:33.948Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="JsTCBPR27BFbIUUPEUYe" version="24.6.5" type="github">
   <diagram name="Page-1" id="ucFDTJxj1MuP0T__f6Ae">
     <mxGraphModel dx="1195" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,14 +14,14 @@
         </mxCell>
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-19" value="DNS Resolution" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];container=0;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="72ZY0S5QGdh6Q3wZreM4-18">
           <mxGeometry x="0.2435" y="-2" relative="1" as="geometry">
-            <mxPoint x="1" y="-12" as="offset" />
+            <mxPoint x="1" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-50" value="ECR&lt;div&gt;Images for&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;services&lt;/span&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ecr_registry;fillColor=#F58534;gradientColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="160" width="44.63" height="46.98" as="geometry" />
+          <mxGeometry x="80.37" y="149.86" width="44.63" height="46.98" as="geometry" />
         </mxCell>
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-82" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.route_53;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="276.44" y="160" width="57.12" height="57.12" as="geometry" />
+          <mxGeometry x="277.63" y="149.86" width="57.12" height="57.12" as="geometry" />
         </mxCell>
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="72ZY0S5QGdh6Q3wZreM4-3" target="72ZY0S5QGdh6Q3wZreM4-10">
           <mxGeometry relative="1" as="geometry" />
@@ -32,7 +32,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-3" value="&lt;div&gt;ALB&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;fillColor=#F58534;gradientColor=none;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="275.25" y="259.99999999999994" width="59.5" height="62.09" as="geometry" />
+          <mxGeometry x="276.44" y="269.99999999999994" width="59.5" height="62.09" as="geometry" />
         </mxCell>
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFBE6;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="385" width="450" height="615" as="geometry" />
@@ -73,7 +73,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-28" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="392.37" y="600" width="120" height="205" as="geometry" />
+          <mxGeometry x="392.37" y="600" width="120" height="180" as="geometry" />
         </mxCell>
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-24" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.ecs_service;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
           <mxGeometry x="404.66" y="610" width="22.35" height="27.5" as="geometry" />
@@ -115,9 +115,6 @@
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-81" value="VPC" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.vpc;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="260" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="72ZY0S5QGdh6Q3wZreM4-116" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="760" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-120" value="&lt;b&gt;Redis&lt;/b&gt;&lt;div&gt;&lt;b&gt;Service&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="433.1" y="610" width="84.22" height="30" as="geometry" />
         </mxCell>
@@ -128,7 +125,7 @@
           <mxGeometry x="110" y="610" width="22.35" height="27.5" as="geometry" />
         </mxCell>
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-127" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="600" y="830" width="198.44000000000005" height="130" as="geometry" />
+          <mxGeometry x="600" y="250" width="198.44000000000005" height="130" as="geometry" />
         </mxCell>
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-126" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="72ZY0S5QGdh6Q3wZreM4-127">
           <mxGeometry width="198.44" height="130" as="geometry" />
@@ -139,7 +136,7 @@
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-88" value="Auth" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Multifactor_Authentication.svg;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="72ZY0S5QGdh6Q3wZreM4-127">
           <mxGeometry x="108" y="31" width="55.400000000000006" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="72ZY0S5QGdh6Q3wZreM4-115" value="Supabase" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="72ZY0S5QGdh6Q3wZreM4-127">
+        <mxCell id="72ZY0S5QGdh6Q3wZreM4-115" value="&lt;b&gt;Supabase&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="72ZY0S5QGdh6Q3wZreM4-127">
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-136" value="" style="group" vertex="1" connectable="0" parent="1">
