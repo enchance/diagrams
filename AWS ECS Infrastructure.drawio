@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T07:32:24.594Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="558M-JGLBnUrL8eJ1g6N" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-16T07:32:36.757Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="l5kwKqc3zRE33LkelbOS" version="24.6.5" type="github">
   <diagram name="Page-1" id="ucFDTJxj1MuP0T__f6Ae">
     <mxGraphModel dx="1195" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-3" value="&lt;div&gt;ALB&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;fillColor=#F58534;gradientColor=none;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="276.44" y="269.99999999999994" width="59.5" height="62.09" as="geometry" />
         </mxCell>
-        <mxCell id="72ZY0S5QGdh6Q3wZreM4-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFBE6;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
+        <mxCell id="72ZY0S5QGdh6Q3wZreM4-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="385" width="450" height="615" as="geometry" />
         </mxCell>
         <mxCell id="72ZY0S5QGdh6Q3wZreM4-13" value="ECS Cluster" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
